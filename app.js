@@ -11,7 +11,7 @@ const morgan = require('morgan');
 //import bodyParser from "body-parser";
 const bodyParser = require('body-parser');
 
-//import { createClient } from "https://cdn.skypack.dev/@supabase/supabase-js";
+import { createClient } from "https://cdn.skypack.dev/@supabase/supabase-js";
 
 const app = express();
 
